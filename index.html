@@ -1,13 +1,14 @@
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <title>HiFlow</title>
+  <title>UltraImage</title>
   <link rel="stylesheet" href="./FreeScale_files/css/bootstrap.min.css">
   <link rel="stylesheet" href="./FreeScale_files/css/dics.min.css">
   <link rel="stylesheet" href="./FreeScale_files/css/bulma.min.css">
   <link rel="stylesheet" href="./FreeScale_files/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./FreeScale_files/css/index.css">
   <link rel="stylesheet" href="./FreeScale_files/css/style.css">
+  <link rel="stylesheet" href="./FreeScale_files/css/window-slider.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="./FreeScale_files/js/bulma-carousel.min.js"></script>
   <script src="./FreeScale_files/js/index.js"></script>
@@ -25,8 +26,8 @@
   </script>
   </head>
   
-  <div class="content">
-    <h1><strong><font color="#22a6b3">🌊HiFlow</font>: Training-free High-Resolution Image Generation <br> with Flow-Aligned Guidance</strong></h1>
+  <div class="content">:  
+    <h1><strong><font color="#22a6b3">🌊UltraImage</font>: Rethinking Resolution Extrapolation in <br> Image Diffusion Transformers</strong></h1>
     <!-- <p style="text-align: center; font-weight: bold; font-size: 1.2em">2025</p> -->
     <p id="authors"><a href="https://bujiazi.github.io/"><b>Jiazi Bu<sup>1,5*</sup></b></a> 
                     <a href="https://github.com/LPengYang/"><b>Pengyang Ling<sup>2,5*</sup></b></a> 
@@ -57,27 +58,24 @@
       </p>
     </font>
     <br>
-    <img width="960" src="./FreeScale_files/figs/fig_teaser.png">
+    <img width="960" src="./FreeScale_files/fig/great_demo.jpg">
   </div>
   
   <div class="container" id="main">
        <div class="row comp-margin">
           <div class="col-md-4 col-md-offset-0">
               <div class="b-dics img-responsive center-block" style="width:100%;">
-                  <img src="./FreeScale_files/figs/flux1_1024.png" alt="Flux (1024×1024)" />
-                  <img src="./FreeScale_files/figs/flux1_4096.png" alt="HiFlow (4096×4096)" />
+                  <img src="./FreeScale_files/fig/qwen_4096 (1).png" alt="UltraImage (4096×4096)" />
               </div>
           </div>
           <div class="col-md-4">
               <div class="b-dics img-responsive center-block" style="width:100%;">
-                  <img src="./FreeScale_files/figs/flux2_1024.png" alt="Flux (1024×1024)" />
-                  <img src="./FreeScale_files/figs/flux2_4096.png" alt="HiFlow (4096×4096)" />
+                  <img src="./FreeScale_files/fig/qwen_4096 (2).png" alt="UltraImage (4096×4096)" />
               </div>
           </div>
           <div class="col-md-4">
               <div class="b-dics img-responsive center-block" style="width:100%;">
-                  <img src="./FreeScale_files/figs/flux3_1024.png" alt="Flux (1024×1024)" />
-                  <img src="./FreeScale_files/figs/flux3_4096.png" alt="HiFlow (4096×4096)" />
+                  <img src="./FreeScale_files/fig/qwen_4096 (3).png" alt="UltraImage (4096×4096)" />
               </div>
           </div>
       </div>
@@ -89,20 +87,17 @@
        <div class="row comp-margin">
           <div class="col-md-4 col-md-offset-0">
               <div class="b-dics img-responsive center-block" style="width:100%;">
-                  <img src="./FreeScale_files/figs/flux4_1024.png" alt="Flux (1024×1024)" />
-                  <img src="./FreeScale_files/figs/flux4_4096.png" alt="HiFlow (4096×4096)" />
+                  <img src="./FreeScale_files/fig/qwen_4096 (4).png" alt="UltraImage (4096×4096)" />
               </div>
           </div>
           <div class="col-md-4">
               <div class="b-dics img-responsive center-block" style="width:100%;">
-                <img src="./FreeScale_files/figs/flux5_1024.png" alt="Flux (1024×1024)" />
-                <img src="./FreeScale_files/figs/flux5_4096.png" alt="HiFlow (4096×4096)" />
+                <img src="./FreeScale_files/fig/qwen_4096 (5).png" alt="UltraImage (4096×4096)" />
               </div>
           </div>
           <div class="col-md-4">
               <div class="b-dics img-responsive center-block" style="width:100%;">
-                <img src="./FreeScale_files/figs/flux6_1024.png" alt="Flux (1024×1024)" />
-                <img src="./FreeScale_files/figs/flux6_4096.png" alt="HiFlow (4096×4096)" />
+                <img src="./FreeScale_files/fig/qwen_4096 (6).png" alt="UltraImage (4096×4096)" />
               </div>
           </div>
       </div>
@@ -114,29 +109,124 @@
       <div class="row comp-margin">
         <div class="col-md-4 col-md-offset-0">
             <div class="b-dics img-responsive center-block" style="width:100%;">
-              <img src="./FreeScale_files/figs/flux7_1024.png" alt="Flux (1024×1024)" />
-              <img src="./FreeScale_files/figs/flux7_4096.png" alt="HiFlow (4096×4096)" />
+              <img src="./FreeScale_files/fig/qwen_4096 (7).png" alt="UltraImage (4096×4096)" />
             </div>
         </div>
         <div class="col-md-4">
             <div class="b-dics img-responsive center-block" style="width:100%;">
-              <img src="./FreeScale_files/figs/flux8_1024.png" alt="Flux (1024×1024)" />
-              <img src="./FreeScale_files/figs/flux8_4096.png" alt="HiFlow (4096×4096)" />
+              <img src="./FreeScale_files/fig/qwen_4096 (8).png" alt="UltraImage (4096×4096)" />
             </div>
         </div>
         <div class="col-md-4">
             <div class="b-dics img-responsive center-block" style="width:100%;">
-              <img src="./FreeScale_files/figs/flux9_1024.png" alt="Flux (1024×1024)" />
-              <img src="./FreeScale_files/figs/flux9_4096.png" alt="HiFlow (4096×4096)" />
+              <img src="./FreeScale_files/fig/qwen_4096 (9).png" alt="UltraImage (4096×4096)" />
             </div>
         </div>
     </div>
   </div>
 
-  <br>
   
+  <div class="content">
+    <h2><b>Direct resolution extrapolation</b></h2>
+    <p>directly generates ultra-resolution images without any guidance, testing the model’s ability to extrapolate beyond the training resolution (4096×4096 for Qwen, 3600×3600 for Flux). 
+    <div class="container" id="main">
+      <div class="row comp-margin">
+        <div class="col-md-4 col-md-offset-0">
+            <div class="b-dics img-responsive center-block" style="width:100%;">
+              <img src="./FreeScale_files/fig/dre_qwen_ours.jpg" alt="UltraImage (4096×4096)" />
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="b-dics img-responsive center-block" style="width:100%;">
+              <img src="./FreeScale_files/fig/dre_qwen_ours.jpg" alt="UltraImage (4096×4096)" />
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="b-dics img-responsive center-block" style="width:100%;">
+              <img src="./FreeScale_files/fig/dre_qwen_ours.jpg" alt="UltraImage (4096×4096)" />
+            </div>
+        </div>
+    </div>
+  </div>
+  </div>
   
+  <div class="content">
+    <h2><b>Guided resolution extrapolation</b></h2>
+    <p>follows prior work: we first generate images at the training resolution (1024×1024), upsample them to the target resolution with 3600×3600 on Flux, and use the upsampled image as low-resolution guidance to generate the final high-resolution output.</p>
+    <div class="container" id="main">
+      <div class="row comp-margin">
+        <div class="col-md-4 col-md-offset-0">
+          <div class="img-responsive center-block" style="width:100%; text-align:center;">
+            <img src="./FreeScale_files/fig/gre_flux_guidance.png" alt="Guidance 1" style="width:100%;" />
+            <div>Guidance</div>
+            <img src="./FreeScale_files/fig/gre_flux_ours.jpg" alt="Ours 1" style="width:100%; margin-top:10px;" />
+            <div>Ours</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="img-responsive center-block" style="width:100%; text-align:center;">
+            <img src="./FreeScale_files/fig/gre_flux_guidance(2).png" alt="Guidance 2" style="width:100%;" />
+            <div>Guidance</div>
+            <img src="./FreeScale_files/fig/gre_flux_ours (2).jpg" alt="Ours 2" style="width:100%; margin-top:10px;" />
+            <div>Ours</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="img-responsive center-block" style="width:100%; text-align:center;">
+            <img src="./FreeScale_files/fig/gre_flux_guidance(3).png" alt="Guidance 3" style="width:100%;" />
+            <div>Guidance</div>
+            <img src="./FreeScale_files/fig/gre_flux_ours (3).jpg" alt="Ours 3" style="width:100%; margin-top:10px;" />
+            <div>Ours</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
   
+  <div class="content">
+    <h2><b>Guided view extrapolation</b></h2>
+    <p>generates a 1024×1024 image at the training resolution and places it at the center of a target resolution of 3600×3600 on Flux, following the SDEdit approach described by Meng et al. (2021). This allows the model to expand content around the central low-resolution image. See more experimental details in the Appendix. The dominant frequency is k=9 for Flux and k=8 or k=9 for Qwen-Image. lambda_min=1.0, lambda_max=1.3, and p=2 for all models.</p>
+    <div class="container" id="main">
+      <div class="row comp-margin">
+        <div class="col-md-4 col-md-offset-0">
+          <div class="window-slider" data-window="20">
+            <img class="window-slider__image" src="./FreeScale_files/fig/gve_flux_ours.png" alt="Ours" />
+            <div class="window-slider__patch">
+              <img class="window-slider__patch-image" src="./FreeScale_files/fig/gve_flux_guidance.png" alt="Guidance" />
+            </div>
+            <div class="window-slider__label window-slider__label--guidance">Ours</div>
+            <div class="window-slider__label window-slider__label--ours">Guidance</div>
+            <input class="window-slider__control" type="range" min="0" max="100" value="100" aria-label="Guidance opacity">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="window-slider" data-window="25">
+            <img class="window-slider__image" src="./FreeScale_files/fig/gve_flux_ours(2).jpg" alt="Ours" />
+            <div class="window-slider__patch">
+              <img class="window-slider__patch-image" src="./FreeScale_files/fig/gve_flux_guidance (2).png" alt="Guidance" />
+            </div>
+            <div class="window-slider__label window-slider__label--guidance">Ours</div>
+            <div class="window-slider__label window-slider__label--ours">Guidance</div>
+            <input class="window-slider__control" type="range" min="0" max="100" value="100" aria-label="Guidance opacity">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="window-slider" data-window="30">
+            <img class="window-slider__image" src="./FreeScale_files/fig/gve_flux_ours(3).png" alt="Ours" />
+            <div class="window-slider__patch">
+              <img class="window-slider__patch-image" src="./FreeScale_files/fig/gve_flux_guidance (3).png" alt="Guidance" />
+            </div>
+            <div class="window-slider__label window-slider__label--guidance">Ours</div>
+            <div class="window-slider__label window-slider__label--ours">Guidance</div>
+            <input class="window-slider__control" type="range" min="0" max="100" value="100" aria-label="Guidance opacity">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <div class="content">
     <h2 style="text-align:center;"><b>Abstract</b></h2>
     <p>Text-to-image (T2I) diffusion/flow models have drawn considerable attention recently due to their remarkable ability to deliver flexible visual creations. Still, high-resolution image synthesis presents formidable challenges due to the scarcity and complexity of high-resolution content. Recent approaches have investigated training-free strategies to enable high-resolution image synthesis with pre-trained models. However, these techniques often struggle with generating high-quality visuals and tend to exhibit artifacts or low-fidelity details, as they typically rely solely on the endpoint of the low-resolution sampling trajectory while neglecting intermediate states that are critical for preserving structure and synthesizing finer detail. To this end, we present HiFlow, a training-free and model-agnostic framework to unlock the resolution potential of pre-trained flow models. Specifically, HiFlow establishes a virtual reference flow within the high-resolution space that effectively captures the characteristics of low-resolution flow information, offering guidance for high-resolution generation through three key aspects: initialization alignment for low-frequency consistency, direction alignment for structure preservation, and acceleration alignment for detail fidelity. By leveraging such flow-aligned guidance, HiFlow substantially elevates the quality of high-resolution image synthesis of T2I models and demonstrates versatility across their personalized variants. Extensive experiments validate HiFlow's capability in achieving superior high-resolution image quality over state-of-the-art methods. Our code is available at <a href="https://github.com/Bujiazi/HiFlow">HiFlow Repo</a>.</p>
@@ -191,7 +281,7 @@
   </div>
 
   <div class="content">
-    <p>Project page template is borrowed from <a href="http://haonanqiu.com/projects/FreeScale.html">FreeScale</a>.</p>
+    <p>Project page template is borrowed from <a href="https://bujiazi.github.io/hiflow.github.io/">HiFlow</a>.</p>
   </div>
   
   
@@ -216,5 +306,23 @@
       content: attr(data-content);
     }
   </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.window-slider').forEach(slider => {
+        const control = slider.querySelector('.window-slider__control');
+        const initial = slider.getAttribute('data-window') || control.value || 100;
+        const applyWindow = (value) => {
+          // value: 0 -> fully guidance in the central square, 100 -> fully ours (no guidance)
+          const opacity = Math.max(0, Math.min(1, 1 - value / 100));
+          slider.style.setProperty('--window-opacity', opacity);
+        };
+        applyWindow(initial);
+        control.value = initial;
+        control.addEventListener('input', (event) => {
+          applyWindow(event.target.value);
+        });
+      });
+    });
+  </script>
   </html>
   
